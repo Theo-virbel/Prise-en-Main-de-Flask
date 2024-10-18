@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des utilisateurs</title>
+</head>
+<body>
+    <h1>Liste des utilisateurs</h1>
+    <ul>
+        {% for user in users %}
+            <li>{{ user.name }} (ID: {{ user.id }})</li>
+        {% endfor %}
+    </ul>
+    <br>
+    <a href="/">Ajouter un nouvel utilisateur</a>
+    <a href="/logout">Se déconnecter</a>  <!-- Lien de déconnexion -->
+    
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul>
+          {% for message in messages %}
+            <li>{{ message }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+</body>
+</html>
+
