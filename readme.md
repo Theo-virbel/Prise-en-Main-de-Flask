@@ -34,6 +34,28 @@ Ce projet est une application web simple développée avec Flask  pour gérer de
 - Frontend : HTML5, CSS3
 - Bibliothèques : Flask-Login, Werkzeug
 
+# Installation
+Pour installer les dépendances nécessaires à ce projet, suivez les étapes ci-dessous :
+
+Clonez le dépôt :
+git clone https://github.com/votre-utilisateur/nom-du-depot.git
+cd nom-du-depot
+
+Créez un environnement virtuel :
+python -m venv venv
+
+Activez l'environnement virtuel 
+Sur Windows :
+venv\Scripts\activate
+
+Sur macOS/Linux :
+source venv/bin/activate
+
+Installez les dépendances :
+pip install -r requirements.txt
+
+
+
 # Captures d’écran des requêtes GET 
 
 Voici une capture d’écran montrant une requête GET réussie pour récupérer la liste des utilisateurs dans l’application.
