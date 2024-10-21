@@ -1,11 +1,12 @@
 from flask import Flask, render_template, request, redirect, url_for, session, flash
 from flask_session import Session
 from werkzeug.security import generate_password_hash, check_password_hash
+import os
 
 app = Flask(__name__)
 
 # Configuration de la session
-app.config['SECRET_KEY'] = 'votre_cle_secrete'  # Change cela par une vraie clé secrète
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'votre_cle_secrete')  # Change cela par une vraie clé secrète
 app.config['SESSION_TYPE'] = 'filesystem'
 Session(app)
 
@@ -18,10 +19,16 @@ def index():
     if request.method == 'POST':
         user_name = request.form['name']
         password = request.form['password']
-        
+
+        # Vérifier si l'utilisateur existe déjà
+        for user in users:
+            if user['name'] == user_name:
+                flash('Nom d’utilisateur déjà pris, veuillez en choisir un autre.')
+                return redirect(url_for('index'))
+
         # Hash du mot de passe
         hashed_password = generate_password_hash(password)
-        
+
         new_user = {
             "id": len(users) + 1,
             "name": user_name,
@@ -68,7 +75,8 @@ def logout():
     flash('Déconnexion réussie.')  # Message de succès
     return redirect(url_for('index'))  # Redirige vers la page d'accueil
 
-
 if __name__ == '__main__':
+    app.run(debug=True)
+
     app.run(debug=True)
 
