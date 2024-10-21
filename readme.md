@@ -43,7 +43,7 @@ Voici une capture d’écran montrant une requête POST réussie pour ajouter un
 
 [Capture POST - Ajout d’un utilisateur](./Capture%20d'écran%202024-10-18%20162402.png)
 
-# Résultat de l'exercice (ajout de l'utilisateur)
+# Résultat de l'exercice (ajout de coco)
 [Ajout-de-l'utilisateur](Capture%20d'écran%202024-10-18%20162430.png)
 
 
