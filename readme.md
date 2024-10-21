@@ -45,13 +45,13 @@ Requête GET - Liste des utilisateurs
 
 Voici une capture d’écran montrant une requête GET réussie pour récupérer la liste des utilisateurs dans l’application.
 
-![Capture GET - Liste des utilisateurs](./Capture%20d’écran%202024-10-18%20162302.png)
+[Capture GET - Liste des utilisateurs](./Capture%20d'écran%202024-10-18%20162302.png)
 
 ### Requête POST - Ajout d’un utilisateur
 
 Voici une capture d’écran montrant une requête POST réussie pour ajouter un nouvel utilisateur.
 
-![Capture POST - Ajout d’un utilisateur](./Capture%20d’écran%202024-10-18%20162430.png)
+[Capture POST - Ajout d’un utilisateur](./Capture%20d'écran%202024-10-18%20162402.png)
 
 
 
