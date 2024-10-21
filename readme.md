@@ -39,9 +39,7 @@ L'application permet la gestion complète des utilisateurs, incluant l'inscripti
 
 - Python 3.9+ doit être installé sur votre machine.
 
-## Captures d’écran des requêtes GET et POST réussies
-
-Requête GET - Liste des utilisateurs
+## Captures d’écran des requêtes GET 
 
 Voici une capture d’écran montrant une requête GET réussie pour récupérer la liste des utilisateurs dans l’application.
 
