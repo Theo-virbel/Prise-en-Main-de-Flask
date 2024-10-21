@@ -34,10 +34,6 @@ Ce projet est une application web simple développée avec Flask  pour gérer de
 - Frontend : HTML5, CSS3
 - Bibliothèques : Flask-Login, Werkzeug
 
-# Installation
-
-- Python 3.9+ doit être installé sur votre machine.
-
 # Captures d’écran des requêtes GET 
 
 Voici une capture d’écran montrant une requête GET réussie pour récupérer la liste des utilisateurs dans l’application.
