@@ -1,19 +1,12 @@
 # Gestion des Utilisateurs avec Flask
 
-Ce projet est une application web simple développée avec **Flask** pour gérer des utilisateurs. Elle permet l'ajout, la visualisation, l'authentification, et la gestion des utilisateurs dans un environnement sécurisé.
+Ce projet est une application web simple développée avec Flask  pour gérer des utilisateurs. Elle permet l'ajout, la visualisation, l'authentification, et la gestion des utilisateurs dans un environnement sécurisé.
 
 ## Table des matières
 
 - [Aperçu](#aperçu)
 - [Fonctionnalités](#fonctionnalités)
 - [Technologies Utilisées](#technologies-utilisées)
-- [Installation](#installation)
-- [Utilisation](#utilisation)
-- [API Endpoints](#api-endpoints)
-- [Sécurité](#sécurité)
-- [Contributions](#contributions)
-- [Licence](#licence)
-- [Repo GitHub](#repo-github)
 
 ## Aperçu
 
@@ -30,12 +23,11 @@ L'application permet la gestion complète des utilisateurs, incluant l'inscripti
 ## Technologies Utilisées
 
 - Langage : Python 3.9+
-- Framework Backend : Flask
+- Framework : Flask
 - Frontend : HTML5, CSS3
 - Bibliothèques : Flask-Login, Werkzeug
 
 ## Installation
-
 
 - Python 3.9+ doit être installé sur votre machine.
 
@@ -50,6 +42,9 @@ Voici une capture d’écran montrant une requête GET réussie pour récupérer
 Voici une capture d’écran montrant une requête POST réussie pour ajouter un nouvel utilisateur.
 
 [Capture POST - Ajout d’un utilisateur](./Capture%20d'écran%202024-10-18%20162402.png)
+
+# Résultat de l'exercice (ajout de l'utilisateur)
+[Ajout-de-l'utilisateur](Capture%20d'écran%202024-10-18%20162430.png)
 
 
 
